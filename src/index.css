@@ -1,0 +1,31 @@
+:root {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --accent-color: #ffffff;
+  --button-bg: #ffffff;
+  --button-text: #000000;
+  --yellow-accent: #ffffff;
+  /* Changing yellow blocks to white for high contrast */
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

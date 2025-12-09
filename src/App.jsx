@@ -7,12 +7,14 @@ import Skill from './components/Skill';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import GalaxyBackground from './components/GalaxyBackground';
+import BackgroundMusic from './components/BackgroundMusic';
 import './App.css';
 
 function App() {
   return (
     <div className="app">
       <GalaxyBackground />
+      <BackgroundMusic />
       <Header />
       <main>
         <Routes>
